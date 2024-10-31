@@ -1,0 +1,117 @@
+
+*{
+    color: #e8ddcb;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    width: 100;
+}
+body{
+    background-color: #031634;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    margin: 3% 2%;
+    margin-bottom: 1%;
+    background-color: #033649;
+    color: white;
+    border: 2px #031634 solid;
+    border-radius: 24px;
+}
+header a{
+    text-decoration: none;
+
+}
+.navbar{
+    width: 30%;
+    margin-left: 2%;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 120%;
+    width: 70%; 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0% 4%;
+}
+
+main, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+tr{
+    background-color: #036564;
+}
+th, td{
+    border: 2px, solid, black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+#form{
+    background-color: #036564;
+    border-radius: 16px;
+    padding: 2%;
+    margin-top: 10px;
+    width: 20%;
+}
+.form_o{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form_o_buttons{
+    display: flex;
+    justify-content: space-around;
+}
+#button{
+    font-size: 80%;
+    align-items: center;
+    background-color: #033649;
+    border:#031634 solid 3px;
+    border-radius: 24px;
+    padding: 5% 10%;
+}
+#button:hover{
+    background-color:#031634;
+    cursor: pointer;
+}
+
+h3{
+    margin-block: 0%;
+}
+h4{
+    margin-block: 0%;
+}
+
+#form_o_opinion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+#sgame{
+    width: 100%;
+    background-color: #033649;
+    border: #031634 solid 2px;
+    border-radius: 16px;
+    padding: 5% 2%;
+}
+
+img{
+    width: 60%;
+}
+.list_table_audio{
+    display: flex;
+    flex-direction: column;
+}

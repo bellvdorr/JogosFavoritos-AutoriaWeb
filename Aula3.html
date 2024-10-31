@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Aula3.css">
+    <title>Tabel</title>
+</head>
+<body>
+    <header>
+        <h1 class="navbar">MENU</h1>
+        <ul>
+            <li> 
+                <a href="#list">Tabela</a>
+            </li>
+            <li>
+                <a href="#form">Formulario</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section id="list">
+            <div class="list_table">
+                <h1>Lista de Jogos Favoritos</h1>
+                <h3>Notas</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Jogo</th>
+                            <th>Historia</th>
+                            <th>Jogabilidade</th>
+                            <th>Protagosnista</th>
+                            <th>Antagonista</th>
+                            <th>Universo</th>
+                            <th>Ambientação</th>
+                            <td>Trilha Sonora</td>
+                            <th>Total</th>
+                            <th>Imagem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dark Souls Remastered</td>
+                            <td>10</td>
+                            <td>8,3</td>
+                            <td>9</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>9,7</td>
+                            <td>9</td>
+                            <td>66</td>
+                            <td>
+                                <img src="Aula3.Assets/DSR.jpeg" alt="DarkSoulsRemastered">
+                                <audio controls>
+                                    <source src="Aula3.Assets/22. Gwyn, Lord of Cinder.mp3" type="audio/mp3">
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Lies of P</td>
+                            <td>8,7</td>
+                            <td>9</td>
+                            <td>9,4</td>
+                            <td>9,3</td>
+                            <td>8,7</td>
+                            <td>9,6</td>
+                            <td>9</td>
+                            <td>63,7</td>
+                            <td>
+                                <img src="Aula3.Assets/LOP.jpeg" alt="LiesOfP">
+                                <audio controls>
+                                    <source src="Aula3.Assets/11. Feel.mp3" type="audio/mp3">
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>The Walking Dead</td>
+                            <td>9,7</td>
+                            <td>8</td>
+                            <td>9,2</td>
+                            <td>7</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>7,3</td>
+                            <td>60,2</td>
+                            <td>
+                                <img src="Aula3.Assets//TWD.jpeg" alt="TheWalkingDead">
+                                <audio controls>
+                                    <source src="Aula3.Assets/30 - Training Clementine.mp3" type="audio/mp3">
+                                </audio>
+                            
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="form">
+            <div class="form_o">
+                <h3>Concorda?</h3>
+                <form action="">
+                    <div id="form_o_buttons">
+                        <button id="button">Sim!</button>
+                        <button id="button">Não!</button>
+                    </div>
+                    <div id="form_o_opinion">
+                        <h4>Bota tua opinião ai!</h4><br>
+                        <input type="text" name="sgame" id="sgame"><br>
+                        <input type="submit" id="button">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>"You are no different from me." - Gwyn, Senhor da Luz(DSR)</h2>
+    </footer>
+</body>
+</html>
