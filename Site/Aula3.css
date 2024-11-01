@@ -8,7 +8,7 @@
 body{
     background-color: #031634;
 }
-header{
+header menu{
     display: flex;
     justify-content: space-around;
     padding: 2%;
